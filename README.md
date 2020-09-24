@@ -1,6 +1,8 @@
 # Milan-Journeys
 How faster is it to travel by car vs public transport in Milan? To try and answer this I created a (relatively small) sample of possible A to B travels and kept track of the time taken.
 
+## Dataset milan_journeys.csv construction
+
 Each datapoint (A to B travel) is built as following:
 
 1. Draw two random points in a rectangle containing Milan.
@@ -12,5 +14,10 @@ Each datapoint (A to B travel) is built as following:
 
 The usage of different APIs is due to the limited number of daily queries available to a free user (the most limitating being TomTom API with 2500 daily queries).
 This method is probably not the fastest out there but gets the job done. More, my hardware at the moment is quite limited, so a few thousands of observations is the maximum I can handle.
+
+## Dataset analysis
+
+So far a preliminary statistical analysis of the dataset, particularly interesting the hourly-aggregated data.
+
 
 
